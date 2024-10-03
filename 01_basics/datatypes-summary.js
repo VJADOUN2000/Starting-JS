@@ -31,5 +31,34 @@ const myFunction=function(){
     
 }
 
-console.log(typeof myFunction);
+console.log(typeof heros);
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myname = "VIKRANTJADOUN"
+
+let anothername = myname;
+anothername ="Chaiaurcode"
+
+//console.log(anothername);
+//console.log(myname);
+
+let user1={
+    email: "jadounvikrant@gmail.com",
+    upi: "9811920084@ypl"
+}
+
+let user2 =user1
+
+user2.email ="abhijadoun@gmail.com";
+
+console.log(user1.email);
+console.log(user2.email);
+
+
+
+
+
 
