@@ -3,9 +3,15 @@ let accountEmail = "jadoun@gmail.com";
 var accountPassword ="12345";
 accountCity = "Delhi";
 
+
+// accountId= 2; Not Allowed
+accountEmail = "abhijadoun@gmail.com";
+accountPassword ="54321";
+accountCity = "Noida";
+
+
 let accountDate; //Undefined
 
-// accountId =2; //not allowed
 accountEmail="naresh";
 accountPassword="6987";
 accountCity ="Jaipur"
@@ -16,4 +22,4 @@ Prefer not to use var
 because of issue of block scope and functional scope
 
 */
-console.table([accountEmail,accountPassword,accountCity,accountDate]);
+console.table([accountDate, accountEmail, accountId, accountPassword, accountCity])
