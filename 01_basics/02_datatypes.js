@@ -1,28 +1,38 @@
-"use strict"; //treat all JS code as newer version
+"use strict"; // all code is treated as newer version in Javascript
 
-//alert("VIKRANT SINGH"); //we using nodejs, not browser
+// alert("Hello, VJ"); // we are using nodejs not browser
 
-console.log(3
-    +
-3)// code readability should be high
+console.log(65 +64);      // Code readability should be maintained
+                              
+console.log("Jadoun")
 
-let name="Vikrant"
-let age=20
-let isLoggedIn = false
-let state = null
+// Datatypes
 
+let name = "VIKRANT";
 
-//number =>2 to power 53
-//bigInt
-//string => ""
-//boolean => true/false
+let age = 18;
+
+let isLoggedOut = true;
+
+let state = null;
+
+let developer;
+
+// number => 2 to the power 53
+// bigint
+// string => ""
+// boolean => tue/false 
 //null => standalone value
-//undefined
-//symbol => unique
+// undefined
+// symbol => to find unique
+
+console.log(typeof(age)) // => Number
+
+console.log(typeof state) //=> Null
+
+console.log(typeof Symbol) // => Function
+
+console.log(typeof developer)  // => undefined
 
 
-
-
-//object
-
-console.log(typeof null);
+// Object
