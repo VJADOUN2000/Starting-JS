@@ -83,16 +83,16 @@
 
 let run = true;
 
-console.log(run);
-console.log(typeof run);
-console.log(typeof (run));
+// console.log(run);
+// console.log(typeof run);
+// console.log(typeof (run));
 
 let runInNumber = Number(run);
 
-console.log(typeof runInNumber);
-console.log(runInNumber);
+// console.log(typeof runInNumber);
+// console.log(runInNumber);
 
-/****************Coversion to Number********** */
+/****************Conversion to Number********** */
 
 // "33" => Number
 // "33abc" => NaN
@@ -102,8 +102,30 @@ console.log(runInNumber);
 //true => 1
 
 
-let isLoggedIn = "";
+let isLoggedIn = "ds";
 
 let booleanvalue = Boolean(isLoggedIn);
 
-console.log(booleanvalue);
+// console.log(booleanvalue);
+
+/**************** Operations *****************************/
+
+let num = 123;
+
+let negValue = -num;
+
+console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(2**4);
+// console.log(12%2);
+
+let str1 ="Hello"
+let str2 = " VJ"
+
+let str3 = str1 +str2;
+
+console.log(str3);
