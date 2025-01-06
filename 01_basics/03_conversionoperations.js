@@ -128,4 +128,25 @@ let str2 = " VJ"
 
 let str3 = str1 +str2;
 
-console.log(str3);
+// console.log(str3);
+
+// console.log(1+56+"56");
+console.log(+true);
+console.log(+false);
+
+
+let num1, num2,num3;
+
+num1 =num2=num3 = 5+6;
+
+/********************Prefix and Postfix Operation and understanding with backticks operators**************/
+
+let x =5;
+let y=x++;
+
+console.log(`x:${x}, y:${y}`);
+
+let a= 45;
+let b =++a;
+
+console.log(`a:${a}, b:${b}`);
