@@ -31,6 +31,20 @@ const myFunction=function(){
     
 }
 
+let arr = ['abhi','vikrant','VJ'];
+
+let Obj1 ={
+    name: "VIKRANT",
+    age : "24"
+}
+
+const sdd=function(){
+    console.log("Printing Function")
+}
+// console.log(arr);
+// console.log(Obj1);
+console.log(sdd)
+
 console.log(typeof heros);
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
