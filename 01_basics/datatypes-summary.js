@@ -43,9 +43,9 @@ const sdd=function(){
 }
 // console.log(arr);
 // console.log(Obj1);
-console.log(sdd)
+//console.log(sdd)
 
-console.log(typeof heros);
+//console.log(typeof heros);
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -66,10 +66,13 @@ let user1={
 
 let user2 =user1
 
+const bigIn= 546515445n;
+
 user2.email ="abhijadoun@gmail.com";
 
-console.log(user1.email);
-console.log(user2.email);
+//console.log(user1.email);
+
+console.log(typeof bigIn);
 
 
 
